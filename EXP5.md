@@ -40,7 +40,7 @@ else:
 
 ### Output:
 
-![Screenshot (591)](https://github.com/user-attachments/assets/12875201-a94d-4bd6-a118-6ce1b8656184)
+![Screenshot (592)](https://github.com/user-attachments/assets/4abb8981-43b6-4147-bc7b-bf55fbd85bea)
 
 
 ### Result:
