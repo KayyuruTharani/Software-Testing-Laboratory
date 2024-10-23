@@ -1,5 +1,7 @@
+# Ex.No: 5 check the given number is array through binary search and inspect for failures.
+
 ### AIM: 
-Write a python program to check the number is Armstrong number or not and inspect for failures.
+ To check the given number is array through binary search and inspect for failures.
 
 ### DATE:5/10/24
 ### REG NO:212221040080
@@ -42,5 +44,5 @@ else:
 
 
 ### Result:
-Thus, the python program to check the number is Armstrong number or not implemented and the output is verified successfully.
+To check the given number is array through binary search and inspect for failures is implemented and the output is verified successfully.
 
