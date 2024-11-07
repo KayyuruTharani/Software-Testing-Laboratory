@@ -20,21 +20,36 @@
 
 ### Program:
 ```
-x = input("Enter the input: ")
-if x.isnumeric():
+def binary_search(arr, x):
+    low = 0
+    high = len(arr) - 1
+    
+    while low <= high:
+        mid = (high + low) // 2
+        
+        if arr[mid] < x:
+            low = mid + 1
+        elif arr[mid] > x:
+            high = mid - 1
+        else:
+            return mid  # Return the index where the element is found
+    
+    return -1  # Element is not found
+
+arr = [2, 3, 4, 10, 40]
+x = input("Enter the element to be searched: ")
+
+try:
     x = int(x)
-    temp = x
-    cube = 0
-    while temp > 0:
-        digit = temp % 10
-        cube = cube + (digit ** 3)
-        temp //= 10
-    if cube == x:
-        print("Armstrong Number")
+    result = binary_search(arr, x)
+    
+    if result != -1:
+        print("Element is present at index", str(result))
     else:
-        print("Not Armstrong Number")
-else:
-    print("Enter a Positive Integer.")
+        print("Element is not present in array")
+except:
+    print("Enter a valid input!")
+
 ```
 
 
