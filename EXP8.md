@@ -112,11 +112,10 @@ Other Manual tools for Security Testing used are: Paros Proxy, Http Watch, Burp 
  
 Apart from the above stages there might be different stages involved like Integration Testing and Performance Testing. 
 In today’s scenario majority of Banking Projects are using: Agile/Scrum, RUP and 
-Continuous Integration methodologies, and Tools packages like Microsoft’s VSTS and Rational Tools. As we mentioned RUP above, RUP stands for Rational Unified Process, which is an iterative software development methodology introduced by IBM which comprises of four phases in which development and testing activities are carried 
- 
+Continuous Integration methodologies, and Tools packages like Microsoft’s VSTS and Rational Tools. As we mentioned RUP above, RUP stands for Rational Unified Process, which is an iterative software development methodology introduced by IBM which comprises of four phases in which development and testing activities are carried  
 out. 
 Four phases are: 
-	i) 	Inception 
+i) Inception 
 ii)Collaboration 
 iii)Construction and 
 iii) Transition 
@@ -129,37 +128,61 @@ In this article we discussed how complex a Banking application could be and what
 ### Test cases for opening bank account:
 
 ### Input parameters checking: 
- -	Name 
+ -	Name
+   
 -Date of Birth 
--	Photo 
+
+-	Photo
+  
 -Address Proof 
+
 -Identity proof 
--Introducers (if applicable) 
--	PAN card 
+
+-Introducers (if applicable)
+
+-	PAN card
+  
 -Initial deposit 
+
 -Whether checkbook / ATM card / Online banking facilities are needed or not -Customer signature 
  
 ### Type of account: 
--	Savings account 
+
+-	Savings account
+   
 -Salary account 
+
 -Joint account 
--	Current account 
--	Secondary account 
+
+-	Current account
+  
+-	Secondary account
+  
 -RD account 
+
 -Account for a company 
 
 
 ### Test cases: 
 
 -Checking mandatory input parameters 
+
 -Checking optional input parameters 
+
 -Check whether able to create account entity. 
+
 -Check whether you are able to deposit an amount in the newly created account (and thus updating the balance) 
+
 -Check whether you are able to withdraw an amount in the newly created account (after deposit) (and thus updating the balance) 
+
 -Check whether company name and its pan number and other details are provided in case ofsalary account 
+
 -Check whether primary account number is provided in case of secondary account 
+
 -Check whether company details are provided in cases of company's current account 
+
 -Check whether proofs for joint account is provided in case of joint account 
+
 -Check whether you are able deposit an account in the name of either of the person in a joint 
  
 
