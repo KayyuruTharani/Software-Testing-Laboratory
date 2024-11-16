@@ -1,6 +1,6 @@
 # Ex.No: 2   Matrix Multiplication 
 
-### DATE:16/08/24                                                                            
+### DATE:23/08/24                                                                            
 ### REGISTER NUMBER :212221040080
 
 ### AIM: 
