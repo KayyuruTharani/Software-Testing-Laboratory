@@ -1,4 +1,4 @@
-# Ex.No: 10  Pytest program for Fibonacci Series
+# Ex.No: 14  Pytest program for Fibonacci Series
 
 ### DATE:8-11-24                                                                            
 ### REGISTER NUMBER : 212221040080
