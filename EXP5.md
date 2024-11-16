@@ -3,7 +3,7 @@
 ### AIM: 
  To check the given number is array through binary search and inspect for failures.
 
-### DATE:5/10/24
+### DATE:13/09/24
 ### REG NO:212221040080
 
 ### Algorithm:
